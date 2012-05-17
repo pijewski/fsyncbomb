@@ -1,6 +1,4 @@
 /*
- * Copyright William D. Pijewski
- *
  * This program simulates a write-heaby database workload.
  */
 
@@ -17,7 +15,7 @@
 
 boolean_t create_only = B_FALSE;
 boolean_t fsync_after_write = B_FALSE;
-boolean_t truncate_file = B_TRUE;
+boolean_t truncate_file = B_FALSE;
 boolean_t quiet = B_FALSE;
 
 uint64_t numfiles = 10;
