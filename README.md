@@ -27,9 +27,6 @@ Joyent).  It should work unmodified on other illumos distributions.  In
 addition, given the simple nature of this program, it should work on other Unix
 platforms, as well as GNU/Linux.
 
-
-# Future Work
-
 This tool is a work in progress, and there is some duplicated code which can be
 refactored.
 
@@ -38,3 +35,5 @@ refactored.
 
 This tool was derived from iopattern (http://github.com/pijewski/iopattern).  At
 some point, I may recombine the funcionality of both tools into one single tool.
+The arcstress tool (http://github.com/pijewski/arcstress) also shares some
+common elements.
